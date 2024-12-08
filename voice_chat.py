@@ -6,11 +6,11 @@ import streamlit as st
 import openai # type: ignore
 import os
 # Open AI API 키 설정하기
-#from dotenv import load_dotenv
+# from dotenv import load_dotenv
 # audiorecorder 패키지 추가
 from audiorecorder import audiorecorder
 
-#load_dotenv()
+# load_dotenv()
 
 OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
 
